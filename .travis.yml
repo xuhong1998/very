@@ -7,7 +7,7 @@ branches:
   only:
     - npm install
 script:
-  - npm run serve
+  - npm run bulid
 deploy:
   provider: pages
   skip-cleanup: true
